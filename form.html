@@ -4,22 +4,21 @@
       <title>Form</title>
       <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
    
-    
+      <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
             type="text/css">
       <style type="text/css">
 
       body{
-         font-family: 'Roboto', sans-serif;
+         
+         
          
       }
          #container{
             width: 500px;
             margin: auto;
-            
             padding: 20px;
-        
-         }
+        }
 
          legend{
             font-size: 30px;
@@ -28,6 +27,7 @@
             border: 1px solid #999;
             padding: 4px 15px;
             color: #FB0C0C;
+            
          }
             
          label.field{
@@ -36,6 +36,7 @@
             width: 100px;
             float: left;
             clear: both;
+            
          }
          label{
              text-align: right;
@@ -91,7 +92,7 @@
       <nav class="navbar navbar-default navbar-fixed-top">    <!--navbar-fixed-top *now have to style with css to give padding-->
         <div class="container">
             <div class="navbar-header">
-                <a href="#" class="navbar-brand"
+                <a href="index.html" class="navbar-brand"
                 >LocalEats</a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu">
                     <span class="icon-bar"></span>
@@ -132,11 +133,6 @@
                    
                 </fieldset>
                 
-                <fieldset>
-                    <label><input type="checkbox" name="menu" value="Starter">Starter</label>
-                    <label><input type="checkbox" name="menu" value="Main">Main</label>
-                    <label><input type="checkbox" name="menu" value="Dessert">Dessert</label>
-                </fieldset>
                 
                 <fieldset>
                     <label><input type="radio" name="gender" value="male"> Male</label>
@@ -144,7 +140,11 @@
                     <label><input type="radio" name="gender" value="other"> Other</label>
                 </fieldset>
                 
-               
+                <fieldset>
+                    <label><input type="radio" name="coffee" value="starbucks"> Starbucks</label>
+                    <label><input type="radio" name="coffee" value="costa"> Costa</label>
+                    <label><input type="radio" name="coffee" value="insominia"> Insomnia</label>
+                </fieldset>
                 
                 <fieldset>
                     <label>Breakfast Preference:
@@ -178,6 +178,10 @@
                             </datalist>
                     </label>
                 </fieldset>
+                
+              
+                
+                
                 
                 <label for="label" class="field">
                    </label><input id="label" type="submit" name="label" value="submit"/>
